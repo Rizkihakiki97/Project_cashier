@@ -108,6 +108,10 @@ if (empty($_SESSION['click_count'])) {
     <?php
     $query = mysqli_query($koneksi, "SELECT * FROM kategori_barang");
     $categories = mysqli_fetch_all($query, MYSQLI_ASSOC);
+    $query = mysqli_query($koneksi, "SELECT * FROM kategori_barang");
+    $categories = mysqli_fetch_all($query, MYSQLI_ASSOC);
+
+    // CIBA
 
     ?>
 
