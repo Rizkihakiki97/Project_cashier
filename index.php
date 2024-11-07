@@ -1,7 +1,7 @@
 <?php
 session_start();
 session_regenerate_id();
-require_once "koneksi.php";
+require_once "config/koneksi.php";
 if (isset($_POST['login'])) {
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -33,6 +33,7 @@ if (isset($_POST['login'])) {
 </head>
 
 <body>
+
 
     <div class="container justify-content-center">
         <div class="row">

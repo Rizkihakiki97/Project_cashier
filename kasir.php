@@ -11,6 +11,7 @@
 <body>
 
     <!-- <nav class="navbar navbar-expand-lg" style="background-color: #bee1fa;"> -->
+    <?php include 'inc/navbar.php' ?>
     <div class="container justify-content-center">
         <div class="row">
             <div class="col-2">
